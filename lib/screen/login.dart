@@ -1,9 +1,10 @@
 // import 'package:final_project/screen/contact.dart';
+import 'package:final_project/uifp/view/home.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:final_project/screen/imageupload.dart';
+// import 'package:final_project/screen/Imageupload.dart';
 import 'package:final_project/screen/register.dart';
 
 // import 'CarouselScreen.dart';
@@ -36,7 +37,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
     if (userlogin) {
       Navigator.of(context).pushAndRemoveUntil(
           MaterialPageRoute(builder: (BuildContext context) {
-        return ImageUpload();
+        return Home();
       }), (route) => false);
     }
   }
@@ -388,7 +389,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
           prefs.setBool("isuserlogin", true);
           Navigator.of(context).pushAndRemoveUntil(
               MaterialPageRoute(builder: (BuildContext context) {
-            return const ImageUpload();
+            return const Home();
           }), (route) => false);
         } else {
           return showDialog(

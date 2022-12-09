@@ -1,6 +1,22 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:final_project/screen/login.dart';
+// import 'package:final_project/provider/pages/barang_add_page.dart';
+// import 'package:final_project/provider/pages/barang_detail_page.dart';
+// import 'package:final_project/provider/pages/barang_page.dart';
+// import 'package:final_project/provider/pages/barang_review_page.dart';
+// import 'package:final_project/provider/pages/category_add_page.dart';
+// import 'package:final_project/provider/pages/category_page.dart';
+// import 'package:final_project/provider/pages/home_page.dart';
+// import 'package:final_project/provider/providers/barang_provider.dart';
+// import 'package:final_project/provider/providers/category_provider.dart';
+// import 'package:final_project/provider/providers/review_provider.dart';
+// import 'package:final_project/provider/providers/barang.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+// import 'package:provider/provider.dart';
+import 'package:final_project/uifp//view/home.dart';
+import 'package:final_project/uifp/view/splash.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,7 +45,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.orange,
       ),
-      home: const Login(),
+      home: const Splash(),
     );
   }
 }
