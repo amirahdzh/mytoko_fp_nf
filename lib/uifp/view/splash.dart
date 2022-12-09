@@ -41,22 +41,22 @@ class _SplashState extends State<Splash> {
             Column(
               children: [
                 Image.asset(
-                  'assets/images/splashimage.jpg',
-                  height: 250,
-                  width: 250,
+                  'assets/img/logo.png',
+                  height: 300,
+                  width: 300,
                 ),
                 SizedBox(
                   height: 15,
                 ),
-                const Text(
-                  "My Toko",
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 18,
-                  ),
-                ),
+                // const Text(
+                //   "My Toko",
+                //   textAlign: TextAlign.center,
+                //   style: TextStyle(
+                //     color: Colors.black,
+                //     fontWeight: FontWeight.bold,
+                //     fontSize: 18,
+                //   ),
+                // ),
               ],
             ),
           ],

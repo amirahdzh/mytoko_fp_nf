@@ -13,7 +13,7 @@ import 'package:final_project/screen/login.dart';
 // import 'package:final_project/provider/providers/review_provider.dart';
 // import 'package:final_project/provider/providers/barang.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+// import 'package:provider/provider.dart';
 // import 'package:provider/provider.dart';
 import 'package:final_project/uifp//view/home.dart';
 import 'package:final_project/uifp/view/splash.dart';

@@ -1,6 +1,7 @@
+import 'package:final_project/uifp/view/home.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'imageupload.dart';
+// import 'imageupload.dart';
 
 class Signup extends StatefulWidget {
   const Signup({Key? key}) : super(key: key);
@@ -274,7 +275,7 @@ class _SignupState extends State<Signup> with TickerProviderStateMixin {
 
         Navigator.of(context).pushAndRemoveUntil(
             MaterialPageRoute(builder: (BuildContext context) {
-          return const ImageUpload();
+          return const Home();
         }), (route) => false);
       }
       // ignore: empty_catches
