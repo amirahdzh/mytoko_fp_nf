@@ -19,7 +19,11 @@ class _Test2State extends State<Cart1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text("My Toko")),
+        title: const Center(
+            child: Text(
+          "My Toko",
+          style: TextStyle(color: Colors.white),
+        )),
         backgroundColor: Color.fromARGB(1000, 40, 79, 73),
       ),
       body: GridView.builder(

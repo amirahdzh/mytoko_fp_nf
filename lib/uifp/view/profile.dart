@@ -14,7 +14,11 @@ class _Test4State extends State<Test4> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text('My Profile')),
+        title: Center(
+            child: Text(
+          'My Profile',
+          style: TextStyle(color: Colors.white),
+        )),
         backgroundColor: Color.fromARGB(1000, 40, 79, 73),
       ),
       body: Row(

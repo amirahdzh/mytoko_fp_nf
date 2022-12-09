@@ -27,7 +27,11 @@ class _TestState extends State<CartItem> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text('my cart')),
+        title: Center(
+            child: Text(
+          'My Cart',
+          style: TextStyle(color: Colors.white),
+        )),
         backgroundColor: Color.fromARGB(1000, 40, 79, 73),
       ),
       body: ListView.builder(

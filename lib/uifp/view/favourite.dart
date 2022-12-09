@@ -15,7 +15,11 @@ class _Test3State extends State<Test3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text("Favourite")),
+        title: const Center(
+            child: Text(
+          "Favourite",
+          style: TextStyle(color: Colors.white),
+        )),
         backgroundColor: Color.fromARGB(1000, 40, 79, 73),
       ),
       body: ListView.builder(
